@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#32A8F0</color>
+    <color name="colorPrimaryDark">#32A8F0</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorW">#D5D2D2</color>
+    <color name="colorBlack">#1E658F</color>
+    <color name="catGuide">#C382BC</color>
+    <color name="colorPureblack">#000000</color>
+    <color name="audioColor">#8ECA3F</color>
+    <color name="factColor">#EE1B24</color>
+    <color name="quizColor">#F6EB1B</color>
+    <color name="catscard1">#F59678</color>
+    <color name="catscard2">#7ED709</color>
+    <color name="catscard3">#2E3192</color>
+    <color name="catscard4">#ED008C</color>
+    <color name="catscard6">#EE1C25</color>
+    <color name="audioBg">#715D5C</color>
+    <color name="slide1">#004D64</color>
+    <color name="slide2">#581E79</color>
+    <color name="slide3">#228FC7</color>
+    <color name="slide4">#9DB23B</color>
+    <color name="slide5">#004B7A</color>
+    <color name="slide6">#9F1920</color>
+    <color name="slide7">#0F9C44</color>
+    <color name="slide8">#F98520</color>
+    <color name="slide9">#F6B63B</color>
+    <color name="slide10">#734233</color>
+    <color name="slide11">#051840</color>
+    <color name="fSlide1">#1B8ACF</color>
+    <color name="fSlide2">#007A90</color>
+    <color name="fSlide3">#243C8D</color>
+    <color name="fSlide4">#00752B</color>
+    <color name="fSlide5">#92CB36</color>
+    <color name="fSlide6">#FFA12A</color>
+    <color name="fSlide7">#45C145</color>
+    <color name="fSlide8">#FAD202</color>
+    <color name="background">#dddddd</color>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.glowingsoft.zvandiri">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.ShowQuizActivity"></activity>
+        <activity android:name=".activities.PdfActivity" />
+        <activity android:name=".activities.youtubeVideoPlayerActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.CatsGuideActivity" />
+        <activity android:name=".activities.MediaActivity" />
+        <activity android:name=".activities.FactSheetActivity" />
+        <activity android:name=".activities.QuizCategoryActivity" />
+        <activity android:name=".activities.ProfileActivity" />
+        <activity android:name=".activities.HealthTrackerProfileActivity" />
+        <activity android:name=".activities.ZvandiriWayActivity" />
+        <activity android:name=".activities.PrivacyPolicyactivity" />
+        <activity android:name=".activities.ContactUsActivity" />
+        <activity
+            android:name=".activities.NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.HealthTrackerActivity"
+            android:theme="@style/medicineView"></activity>
+        <activity
+            android:name=".activities.UpdateProfileActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
