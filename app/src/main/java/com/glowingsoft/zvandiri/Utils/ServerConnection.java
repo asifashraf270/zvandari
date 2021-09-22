@@ -12,7 +12,7 @@ public class ServerConnection {
     public static String getQuizByCategory = connectionIp + "getQuizByCategory";
     public static String getAudios = connectionIp + "getAudios";
     public static String youtubeEndPointForChannel = "https://www.googleapis.com/youtube/v3/search?channelId=UC3SlRJmM33bBOUXkUMp4ukw&part=snippet,id&order=date&key=";
-    public static String apiKey = "AIzaSyDNWd0bC1jCTIc3Of2Xr_yfltn6J1159X8";
+    public static String apiKey = "";
     public static String endpoint = youtubeEndPointForChannel + apiKey;
     public static String videoSearch = "https://www.youtube.com/watch?v=";
     public static String updateProfile = "updateprofile";
